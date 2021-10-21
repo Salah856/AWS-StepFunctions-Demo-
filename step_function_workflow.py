@@ -50,7 +50,6 @@ asl_definition = {
     }
 }
 
-
 response = sfn_client.create_state_machine(
     name='ProcessTransactionStateMachine',
     definition=json.dumps(asl_definition),
