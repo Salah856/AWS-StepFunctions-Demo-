@@ -31,5 +31,3 @@ process_refund_response = lambda_client.create_function(
 
 print(process_purchase_response)
 print(process_refund_response)
-
-print('end of file!')
